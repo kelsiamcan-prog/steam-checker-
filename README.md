@@ -1,3 +1,5 @@
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/e43b9846-9126-4487-8f04-8fe084f4a283" />
+
 ⚡ Steam Account Checker & Checker Manager
 Steam Account Checker, yüklediğiniz hesap listelerini modern Steam API'lerini kullanarak hızlı, güvenli ve otomatik olarak kontrol eden, gelişmiş bir hesap analiz ve tarama yazılımıdır.
 
