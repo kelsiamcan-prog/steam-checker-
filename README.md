@@ -30,10 +30,6 @@ Ayarlar sekmesinden proxy listesini yükleyin ve proxy türünü seçin.
 Çoklu Hesap sekmesinden taranacak hesap listesini (kullaniciadi:sifre formatında) yükleyin.
 ▶ Giriş İşlemini Başlat butonuna basın.
 Geçerli hesaplar valid.txt, hatalı hesaplar unvalid.txt ve guard korumalı hesaplar guarded.txt olarak uygulamanın çalıştığı klasöre kaydedilir. Canlı işlem loglarını Terminal sekmesinden izleyebilirsiniz.
-Yapımcı / Satıcı İçin (Key Generator):
-Lisans anahtarları üretmek için KeyGenerator klasöründeki key_generator.py dosyasını çalıştırın.
-Kaç adet anahtar üretmek istediğinizi ve bu anahtarların kaç günlük olacağını (örn: 30 gün) belirleyin.
-Üretilen anahtarlar otomatik olarak key.txt dosyasına kaydedilir ve doğrudan Gist veritabanınıza yüklenir. Kullanıcı bu anahtarı ilk kez girdiğinde 30 günlük süresi ve HWID eşleşmesi başlar.
 ⚠️ Güvenlik Uyarısı
 Bu yazılım yalnızca İtemsatış ÜrünPazar mağazası (https://www.itemsatis.com/p/UrunPazar) üzerinden satılmaktadır.
 
@@ -82,19 +78,6 @@ Once the application is open:
 - Press the ▶ **Start Login Process** button.
 
 Valid accounts are saved as `valid.txt`, invalid accounts as `unvalid.txt`, and Steam Guard-protected accounts as `guarded.txt` in the application's working directory.
-
-You can monitor live operation logs from the **Terminal** tab.
-
-**For the Developer / Seller (Key Generator):**
-
-Run the `key_generator.py` file in the **KeyGenerator** folder to generate license keys.
-
-Specify how many keys you want to generate and how many days they should remain valid (e.g., 30 days).
-
-The generated keys are automatically saved to the `key.txt` file and uploaded directly to your Gist database.
-
-When a user enters the key for the first time, its validity period (e.g., 30 days) and HWID binding begin.
-
 ⚠️ **Security Warning**
 
 This software is sold exclusively through the İtemsatış ÜrünPazar store (https://www.itemsatis.com/p/UrunPazar).
